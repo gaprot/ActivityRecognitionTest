@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ActivityRecognitionTest</string>
+
+    <string name="notify_intent_action">receive_recognition</string>
+    <string name="notify_activity_type">activity_type</string>
+    <string name="notify_confidence">confidence</string>
+    <string name="notify_time">time</string>
+
+    <string name="activity">アクティビティ</string>
+    <string name="activity_type">種類 : %1$s</string>
+    <string name="activity_confidence">信頼度 : %1$d%%</string>
+    <string name="in_vehicle">乗り物に乗っている</string>
+    <string name="on_bicycle">自転車に乗っている</string>
+    <string name="on_foot">歩行中</string>
+    <string name="still">静止状態</string>
+    <string name="unknown">不明</string>
+    <string name="tilting">回転中</string>
+    <string name="walking">歩行中</string>
+    <string name="running">走行中</string>
+
+    <string name="acceleration">加速度</string>
+    <string name="result_x">X : %1$f</string>
+    <string name="result_y">Y : %1$f</string>
+    <string name="result_z">Z : %1$f</string>
+
+    <string name="with_space_hyphen">" - "</string>
+    <string name="filePath">%1$s/%2$s%3$s</string>
+
+    <string name="sh_extension">.sh</string>
+    <string name="sh_initial_content">auth_token=$(cat ~/.emulator_console_auth_token)\nsleep 1\necho auth $auth_token\n</string>
+    <string name="sh_content">sleep %1$f\necho sensor set acceleration %2$f:%3$f:%4$f\n</string>
+
+    <string name="utf_8">UTF-8</string>
+    <string name="date_format_pattern">yyyy-MM-dd-HH-mm-ss</string>
+</resources>
